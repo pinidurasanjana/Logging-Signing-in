@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User List</title>
+</head>
+<body>
+  <h1>Registered Users</h1>
+  <!-- <table>
+    <tr>
+      <th>Reg No</th>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Branch</th>
+    </tr>
+    <% users.forEach(user => { %>
+      <tr>
+        <td><%= user.id_no %></td>
+        <td><%= user.name %></td>
+        <td><%= user.age %></td>
+        <td><%= user.gender %></td>
+      </tr>
+    <% }); %>
+  </table> -->
+
+  <ul>
+    <% users.forEach(user => {%>
+      <li><%= user.id_no %></li>
+      <li><%= user.name %></li>
+      <li><%= user.age %></li>
+      <li><%= user.gender %></li>
+    <% }) %>
+  </ul>
+
+</body>
+</html>
