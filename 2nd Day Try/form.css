@@ -1,0 +1,43 @@
+body{
+    background-color: skyblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 50px;
+}
+form{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 50px auto;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+form label{
+    color: darkcyan;
+}
+form input{
+    border: none;
+    background-color: beige;
+    outline: none;
+    padding: 8px;
+    font-size: 20px;
+}
+#course{
+    border: none;
+    outline: none;
+    background-color:  beige;
+    padding: 8px;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+button{
+    background-color: teal;
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
